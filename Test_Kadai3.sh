@@ -1,6 +1,6 @@
 #!/bin/sh
 
-result=$(./kadai3.sh 64 16)
+result=$(./Kadai3.sh 64 16)
 if [ $result = 16 ] ; then
 	echo "test1 OK"
 else
@@ -8,7 +8,7 @@ else
 	exit 1
 fi
 
-result=$(./kadai3.sh 32 12)
+result=$(./Kadai3.sh 32 12)
 if [ $result = 4 ] ; then
 	echo "test2 OK"
 	exit 0
