@@ -1,4 +1,4 @@
 language: bash
 script:
   - echo "travis test"
-  - ./Test_kadai3.sh
+  - Test_kadai3.sh
