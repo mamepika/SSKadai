@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 result=$(./Kadai3.sh 64 16)
 if [ $result = 16 ] ; then
